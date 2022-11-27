@@ -29,4 +29,4 @@ def clean_data():
     df.fecha_de_beneficio = df.fecha_de_beneficio.dt.strftime("%Y/%m/%d")
     df.drop_duplicates(inplace = True)
 
-    return f
+    return df
